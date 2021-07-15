@@ -1,0 +1,702 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: #88c7f9;
+    /* margin-top: 4px; */
+    position: fixed;
+    top: 0px;
+    z-index: 1999;
+    
+}
+nav{
+    display: flex;
+    
+} 
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    /* background-color: #88c7f9; */
+}
+.logo img{
+    height: 60px;
+    width: 88px;
+    position: relative;
+    left: 20px;
+}
+
+nav ul{
+    height: 58px;
+    display: flex;
+    
+    color: wheat;
+    /* justify-content: flex-start; */
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 70px;
+    font-family: 'Viaoda Libre', cursive;
+    
+}
+nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    
+}
+nav ul li a:hover{
+    color: darkorchid;
+    
+}
+main{
+    height: 2700px;
+}
+.main{
+    display: flex;
+    /* padding: 0 30px; */
+    /* max-width: 90vw; */
+    /* margin: auto; */
+    
+}
+.cart{
+    
+    display: flex;
+    align-items: center;
+}
+.cart img{
+    margin: 0 80px;
+    height: 40px;
+    width: 58px;
+    padding: 0 20px;
+}
+.login{
+    
+    display: flex;
+    align-items: center;
+}
+.login img{
+    /* position: relative;
+    left: 100px; */
+    margin: 0 20px;
+    height: 40px;
+    width: 58px;
+    padding: 0 80px;
+}
+.ct-1{
+    /* display: inline-flex; */
+    margin: 10px 5px;
+    /* justify-content: left; */
+    /* min-height: calc(100vh-58px-12vh); */
+
+}
+.slider{
+    display: inline-flex;
+    /* justify-content: left; */
+    /* flex-direction: row; */
+    margin:0 auto;
+    margin-bottom:18px ;
+    /* height: 600px; */
+    width: 40%;
+    position: relative;
+    left: 10px;
+    /* padding: 0 auto; */
+}
+.slider-1{
+    display: inline-flex;
+    /* justify-content: right;  */
+    float: right;
+    /* flex-direction: row; */
+    margin:0 auto;
+    margin-bottom: 2px;
+    width: 52%;
+    position: relative;
+    left: 5px;
+}
+
+.cont-1 p{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: black;
+    /* color: blanchedalmond; */
+    width: 150px;
+    font-family: 'Viaoda Libre', cursive;
+    /* padding: 0 60px; */
+    /* margin: 0 60px; */
+}
+.nut-1{
+    /* display: inline-block; */
+    height: 140px;
+    width: 30px;
+    padding: 0 80px;
+}
+/* .cont-1 p{
+    position: relative;
+   right: 60px;
+} */
+
+.nut-1 a{
+    display: inline-flex;
+    position: relative;
+    left: 35px;
+    height: 80px;
+    width: 30px;
+}
+/* #more-1 {display: none;} */
+
+#myBtn-1 a{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: blanchedalmond;
+    width: 170px;
+    height: 30px;
+    position: relative;
+    left: 0px;
+    
+}
+.nut-2{
+    /* display: inline-flex; */
+    height: 140px;
+    width: 30px;
+    padding: 0 100px;
+    /* margin: auto; */
+    /* display: flex; */
+}
+.nut-2 a{
+    display: inline-flex;
+    height: 80px;
+    width: 30px;
+    padding: 0 100px;
+    position: relative;
+    right: 30px;
+    
+}
+.cont-2 p{
+    position: relative;
+   left: 30px;
+   font-family: 'Viaoda Libre', cursive;
+}
+
+#myBtn-2 a{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: blanchedalmond;
+    width: 2px;
+    height: 30px;
+    position: relative;
+    left: 0px;
+    
+}
+.nut-3{
+    /* display: inline-flex; */
+    height: 140px;
+    width: 30px;
+    padding: 0 100px;
+    /* margin: auto; */
+    /* display: flex; */
+}
+.nut-3 a{
+    display: inline-flex;
+    height: 80px;
+    width: 30px;
+    padding: 0 100px;
+    position: relative;
+    right: 50px;
+    /* margin: auto; */
+    /* display: flex; */
+}
+.cont-3 p{
+    position: relative;
+   left: 30px;
+   font-family: 'Viaoda Libre', cursive;
+}
+
+#myBtn-3 a{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: blanchedalmond;
+    width: 2px;
+    height: 30px;
+    position: relative;
+    left: 0px;
+}
+.nut-4{
+    /* display: inline-flex; */
+    height: 140px;
+    width: 30px;
+    padding: 0 100px;
+    /* display: flex; */
+}
+.nut-4 a{
+    display: inline-flex;
+    height: 80px;
+    width: 30px;
+    padding: 0 100px;
+    position: relative;
+    right: 20px;
+}
+.cont-4 p{
+    position: relative;
+   left: 40px;
+   font-family: 'Viaoda Libre', cursive;
+}
+
+#myBtn-4 a{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: blanchedalmond;
+    width: 2px;
+    height: 30px;
+    position: relative;
+    right: 0px;
+}
+.nut-5{
+    /* display: inline-flex; */
+    height: 140px;
+    width: 30px;
+    padding: 0 100px;
+}
+.nut-5 a{
+    display: inline-flex;
+    height: 60px;
+    width: 15px;
+    padding: 0 100px;
+    position: relative;
+    right: 0px;
+}
+.cont-5 p{
+    position: relative;
+   left: 60px;
+   font-family: 'Viaoda Libre', cursive;
+}
+
+#myBtn-5 a{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: blanchedalmond;
+    width: 30px;
+    height: 30px;
+    /* position: relative;
+    right: 500px; */
+    
+}
+.col{
+    background-color: black;
+    margin: 10px auto;
+    padding: 10px 0;
+}
+.content{
+    display: flex;
+    height: 500px;
+    background-color: cadetblue;
+}
+.content-left{
+    width: 50%;
+    margin: 10px 10px;
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.content-right{
+    width: 50%;
+
+}
+.content-right img{
+    height: 460px;
+    width: 600px;
+    
+}
+.content-1{
+    display: flex;
+    height: 300px;
+    background-color: rgba(142, 216, 30, 0.301);
+    margin-top: 6px;
+    margin-bottom: 4px;
+}
+.content-left-1{
+    width: 50%;
+    margin: 30px 10px;
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.content-right-1{
+    width: 50%;
+
+}
+.content-right-1 img{
+    margin: 10px 10px;
+    height: 280px;
+    width: 550px;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn.rounded-circle {
+    border-radius: 100px !important;
+    padding: 0.45rem 1.35rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+.btn-warning {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+a {
+    /* color: #00A09D; */
+    text-decoration: none;
+}
+.colspan{
+    background-color: rgba(128, 128, 128, 0.548);
+    margin: 10px auto;
+    padding: 10px 0;
+}
+.content-2{
+    display: flex;
+    height: 300px;
+    background-color: rgba(128, 206, 12, 0.876);
+    /* margin: 10px 10px; */
+}
+.content-left-2{
+    width: 50%;
+    /* margin: 30px 10px; */
+
+}
+.content-left-2 h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 0 16px;
+}
+.content-left-2 h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(158, 21, 21);
+    padding: 0 10px;
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content-middle-2{
+    width: 50%;
+
+}
+.content-middle-2 h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+.content-middle-2 h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(158, 21, 21);
+    padding: 0 10px;
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content-right-2{
+    width: 50%;
+
+}
+.content-right-2 h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 0 16px;
+}
+.content-right-2 h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(158, 21, 21);
+    padding: 0 10px;
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content-3{
+    display: flex;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    height: 380px;
+    background-color: rgba(30, 188, 216, 0.137);
+}
+.content-left-3{
+    width: 50%;
+    margin: 30px 30px;
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.content-right-3{
+    width: 50%;
+
+}
+.content-right-3 img{
+    margin: 10px 10px;
+    height: 250px;
+    width: 500px;
+}
+.fa-thumbs-up:before {
+    content: "\f164";
+}
+/* *, *::before, *::after {
+    box-sizing: border-box;
+} */
+
+footer{
+    background-color: black;
+    /* display: block; */
+}
+footer p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Viaoda Libre', cursive;
+    font-weight: bolder;
+    list-style: none;
+}
+footer a p{
+    text-decoration: none;
+    
+    font-size: 20px;
+}
+footer a p:hover{
+    color: rgb(80, 206, 228);
+}
+footer nav ul li{
+    list-style: none;
+    padding: 0 65px;
+    font-family: 'Viaoda Libre', cursive;
+    
+}
+footer nav ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+footer nav ul li a:hover{
+    color: lime;
+    font-weight: bolder;
+}
+
+div {
+    display: block;
+}
+a, a:hover, a:active {
+    color: #28a745;
+}
+a {
+    /* color: #00A09D; */
+    text-decoration: none;
+    /* background-color: transparent; */
+    /* -webkit-text-decoration-skip: objects; */
+}
+
+div#fuel_bg_img {
+    background-position: bottom !important;
+    background-repeat: unset !important;
+    /* width: 200px; */
+}
+.vc_row.vc_row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.vc_row[data-vc-full-width] {
+    /* -webkit-transition: opacity .5s ease;
+    -o-transition: opacity .5s ease; */
+    transition: opacity .5s ease;
+    overflow: hidden;
+}
+.vc_custom_1615465534290 {
+    margin-bottom: 25px !important;
+    padding-top: 30px !important;
+    padding-bottom: 140px !important;
+    background: #0a0a0a url(https://www.makhanawala.com/wp-content/uploads/2021/03/1920x600bannner.jpg?id=1944) !important;
+    /* background-position: center !important;
+    background-repeat: no-repeat !important; */
+    background-size: cover !important;
+    
+    margin: 65px auto;
+
+}
+.vc_row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.vc_row.vc_row-flex::after, .vc_row.vc_row-flex::before {
+    display: none;
+}
+.vc_row:after, .vc_row:before {
+    content: " ";
+    display: table;
+}
+.vc_row:after {
+    clear: both;
+}
+*:before, *:after {
+    /* -webkit-box-sizing: border-box; */
+    /* -moz-box-sizing: border-box; */
+    box-sizing: border-box;
+}
+.vc_col-lg-1, .vc_col-lg-10, .vc_col-lg-11, .vc_col-lg-12, .vc_col-lg-2, .vc_col-lg-3, .vc_col-lg-4, .vc_col-lg-5, .vc_col-lg-6, .vc_col-lg-7, .vc_col-lg-8, .vc_col-lg-9, .vc_col-md-1, .vc_col-md-10, .vc_col-md-11, .vc_col-md-12, .vc_col-md-2, .vc_col-md-3, .vc_col-md-4, .vc_col-md-5, .vc_col-md-6, .vc_col-md-7, .vc_col-md-8, .vc_col-md-9, .vc_col-sm-1, .vc_col-sm-10, .vc_col-sm-11, .vc_col-sm-12, .vc_col-sm-2, .vc_col-sm-3, .vc_col-sm-4, .vc_col-sm-5, .vc_col-sm-6, .vc_col-sm-7, .vc_col-sm-8, .vc_col-sm-9, .vc_col-xs-1, .vc_col-xs-10, .vc_col-xs-11, .vc_col-xs-12, .vc_col-xs-2, .vc_col-xs-3, .vc_col-xs-4, .vc_col-xs-5, .vc_col-xs-6, .vc_col-xs-7, .vc_col-xs-8, .vc_col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    box-sizing: border-box;
+}
+/* @media (min-width: 768px){
+.vc_col-sm-1, .vc_col-sm-10, .vc_col-sm-11, .vc_col-sm-12, .vc_col-sm-2, .vc_col-sm-3, .vc_col-sm-4, .vc_col-sm-5, .vc_col-sm-6, .vc_col-sm-7, .vc_col-sm-8, .vc_col-sm-9 {
+    float: left;
+}
+} */
+/* @media (min-width: 768px){
+.vc_col-sm-12 {
+    width: 100%;
+}
+} */
+.vc_column_container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.vc_row.vc_row-flex>.vc_column_container {
+    /* display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox; */
+    display: flex;
+}
+.vc_row.vc_row-o-content-middle:not(.vc_row-o-equal-height)>.vc_column_container {
+    -webkit-box-align: center;
+    /* -webkit-align-items: center;
+    -ms-flex-align: center; */
+    align-items: center;
+}
+.vc_column-inner::after, .vc_column-inner::before {
+    content: " ";
+    display: table;
+}
+.vc_column-inner::after {
+    clear: both;
+}
+.vc_column-inner::after, .vc_column-inner::before {
+    content: " ";
+    display: table;
+}
+.vc_column_container>.vc_column-inner {
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+.vc_col-has-fill>.vc_column-inner, .vc_row-has-fill+.vc_row-full-width+.vc_row>.vc_column_container>.vc_column-inner, .vc_row-has-fill+.vc_row>.vc_column_container>.vc_column-inner, .vc_row-has-fill>.vc_column_container>.vc_column-inner {
+    padding-top: 35px;
+}
+.vc_row.vc_row-flex>.vc_column_container>.vc_column-inner {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+.vc_row.vc_row-o-content-middle>.vc_column_container>.vc_column-inner {
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.vc_row.vc_row-flex>.vc_column_container>.vc_column-inner {
+    z-index: unset!important;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+div {
+    display: block;
+}
+.vc_custom_1615465722673 {
+    margin-right: 8% !important;
+    margin-bottom: 0px !important;
+    margin-left: 8% !important;
+    border-top-width: 10px !important;
+    border-right-width: 10px !important;
+    border-bottom-width: 10px !important;
+    border-left-width: 10px !important;
+    padding-top: 2% !important;
+    padding-right: 3% !important;
+    padding-bottom: 0px !important;
+    padding-left: 3% !important;
+    background-color: #7c4640 !important;
+    border-left-color: rgba(15, 15, 15, 0.822) !important;
+    border-left-style: solid !important;
+    border-right-color: rgba(15, 15, 15, 0.822) !important;
+    border-right-style: solid !important;
+    border-top-color: rgba(15, 15, 15, 0.822) !important;
+    border-top-style: solid !important;
+    border-bottom-color: rgba(15, 15, 15, 0.822) !important;
+    border-bottom-style: solid !important;
+}
+.text-center {
+    text-align: center;
+}
+.vc_custom_1453812054824 {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+    padding-top: 0px !important;
+}
+.vc_column_container>.vc_column-inner {
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+.font-alt{
+    color: cornsilk;
+    font-weight: bold;
+    font-size: 30px;
+}
+.wpb_wrapper p{
+    color: cornsilk;
+    font-size: 15px;
+    font-family: 'Viaoda Libre', cursive;
+}
